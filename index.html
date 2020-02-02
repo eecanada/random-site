@@ -1,21 +1,31 @@
-<h1> Form </h1>
-
-<form> 
-  Name: <input type="text">
-  <input type="submit" value="save">
-</form>
-
-
-<form> 
-  age: <input type="text" placeholder="age">
-  <input type="submit" value="submit">
-</form>
+<h1>Form</h1>
 
 <form>
-  hobby <input type="text" placeholder="hobby">
+  name: <input type="text" required />
   <div>
-    number: <input type="number" placeholder="number">
-    <input type="submit">
+    age <input type="number" />
+    <div><input type="checkbox" checked /> is older than 21?</div>
+    <div>
+        <textarea required> Tell me your story </textarea>
+      </div>
+    <input type="submit" />
   </div>
+  <div>
+    Color:
+    <select>
+      <option > red </option>
+      <option> blue </option>
+      <option selected> green </option>
+    </select>
+  </div>
+  <div>
+    Locations:
+    <select multiple>
+      <option> Barcelona </option>
+      <option> Florence </option>
+      <option> Rome </option>
+    </select>
+  </div>
+
 </form>
 
