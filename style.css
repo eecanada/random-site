@@ -96,4 +96,13 @@ img {
     width: 50%;
     float: left;
   }
+  .image-area{
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
 }
+
+
