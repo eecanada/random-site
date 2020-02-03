@@ -41,5 +41,40 @@ img {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
 
+
+.centered-container{
+  max-width:1020px;
+  margin: 0px auto;
+  padding: 0px 16px
+}
+
+.image-text{
+  text-align: center;
+  color: white;
+  background: black;
+  font-size: 1.5rem;
+  max-width:1020px;
+  margin: 0px auto 0px auto;
+  padding: 0px 16px
+}
+
+.intro-text {
+  max-width: 1020px;
+  margin: 0px auto 0px auto;
+  color: gray;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px
+}
+
+.single-service {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.single-service p{
+  padding: 0px 16px
 }
