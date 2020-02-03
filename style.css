@@ -4,7 +4,10 @@
   height: 100px;
   padding: 20px;
   border: 2px solid black;
-  margin: 10px
+  margin: 10px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px
 }
 #box1 {
   background-color: lightblue;
