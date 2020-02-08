@@ -81,6 +81,10 @@ img {
   padding: 0px 16px
 }
 
+.footer{
+  text-align: center;
+}
+
 @media screen and (min-width: 700px) {
   .nav ul{
     text-align: right;
