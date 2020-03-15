@@ -16,6 +16,13 @@ img {
  color: white 
 }
 
+#logo{
+  height:55px;
+  width: 61px;
+  float:left;
+  margin-left: 100px;
+}
+
 .nav ul {
   padding: 0px;
   margin: 0px;
@@ -84,13 +91,8 @@ img {
 .footer{
   text-align: center;
 }
-/* 
-@media screen and (min-width: 700px) {
-  .footer {
-    text-align: center
-  }
 
-} */
+
 @media screen and (min-width: 700px) {
   .nav ul{
     text-align: right;
@@ -101,6 +103,8 @@ img {
     border-left: 1px solid black;
     text-align: left;
   }
+
+
 
   .single-service {
     width: 50%;
@@ -114,5 +118,10 @@ img {
     background-repeat: no-repeat;
   }
 }
+
+@media screen and (max-width: 700px) {
+  #logo{
+    display: none
+  }
 
 
